@@ -1,5 +1,21 @@
 # Project
 
+**NOTES:**
+
+After the expiration of the test, I created a quite better documentation for the project which is available in the new readme.
+I thought that at least adding a bit of documentation could have been something allowed after the expiration of the time, because during the test I did not have time to write documentation, just this "awful readme".
+
+I kept also this old README in order to show that all the features which were not implemented they are still not implemented, and all the code has
+not been refactored or touched at all.
+
+If this could be accepted, the new readme is available here:
+
+[New Readme](./NEWREADME.md)
+
+otherwise this is the old readme deployed when the test expired.
+
+## OLD README
+
 I did use a generator I've created for React with Redux and TypeScript.
 
 The generator is available at this link:
