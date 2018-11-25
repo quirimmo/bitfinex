@@ -1,0 +1,5 @@
+@import './../../assets/styles/colors';
+.symbols-widget {
+  background: $widgetsBorderColor;
+  border: 1px solid $widgetItemsBottomBorderColor;
+}

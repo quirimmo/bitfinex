@@ -1,0 +1,16 @@
+add unit tests to render props
+add husky with hooks
+add readme doc
+add code comments
+add constants for the app
+restructure http service for using constants
+
+
+https://api.bitfinex.com/v1/symbols_details
+https://www.bitfinex.com/pages/_pairs/?symbols=ALL
+
+https://api.bitfinex.com/v2/conf/pub:map:currency:label,pub:map:currency:sym,pub:map:currency:unit
+
+https://api.bitfinex.com/v2/tickers/?symbols=ALL
+
+https://www.bitfinex.com/account/_bootstrap/

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Navigation Presentational Component should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppNavigation />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Menu
+        bodyClassName=""
+        burgerBarClassName=""
+        burgerButtonClassName=""
+        className=""
+        crossButtonClassName=""
+        crossClassName=""
+        disableCloseOnEsc={false}
+        id=""
+        isOpen={false}
+        itemClassName=""
+        itemListClassName=""
+        menuClassName=""
+        morphShapeClassName=""
+        noOverlay={false}
+        onStateChange={[Function]}
+        outerContainerId=""
+        overlayClassName=""
+        pageWrapId=""
+        styles={Object {}}
+        width={300}
+      >
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="menu-nav-item"
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="menu-nav-item"
+          to="/test"
+        >
+          Test
+        </NavLink>
+      </Menu>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bodyClassName": "",
+        "burgerBarClassName": "",
+        "burgerButtonClassName": "",
+        "children": Array [
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="menu-nav-item"
+            to="/"
+          >
+            Home
+          </NavLink>,
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="menu-nav-item"
+            to="/test"
+          >
+            Test
+          </NavLink>,
+        ],
+        "className": "",
+        "crossButtonClassName": "",
+        "crossClassName": "",
+        "disableCloseOnEsc": false,
+        "id": "",
+        "isOpen": false,
+        "itemClassName": "",
+        "itemListClassName": "",
+        "menuClassName": "",
+        "morphShapeClassName": "",
+        "noOverlay": false,
+        "onStateChange": [Function],
+        "outerContainerId": "",
+        "overlayClassName": "",
+        "pageWrapId": "",
+        "styles": Object {},
+        "width": 300,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Home",
+            "className": "menu-nav-item",
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Home",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Test",
+            "className": "menu-nav-item",
+            "to": "/test",
+          },
+          "ref": null,
+          "rendered": "Test",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Menu
+          bodyClassName=""
+          burgerBarClassName=""
+          burgerButtonClassName=""
+          className=""
+          crossButtonClassName=""
+          crossClassName=""
+          disableCloseOnEsc={false}
+          id=""
+          isOpen={false}
+          itemClassName=""
+          itemListClassName=""
+          menuClassName=""
+          morphShapeClassName=""
+          noOverlay={false}
+          onStateChange={[Function]}
+          outerContainerId=""
+          overlayClassName=""
+          pageWrapId=""
+          styles={Object {}}
+          width={300}
+        >
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="menu-nav-item"
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="menu-nav-item"
+            to="/test"
+          >
+            Test
+          </NavLink>
+        </Menu>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bodyClassName": "",
+          "burgerBarClassName": "",
+          "burgerButtonClassName": "",
+          "children": Array [
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="menu-nav-item"
+              to="/"
+            >
+              Home
+            </NavLink>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="menu-nav-item"
+              to="/test"
+            >
+              Test
+            </NavLink>,
+          ],
+          "className": "",
+          "crossButtonClassName": "",
+          "crossClassName": "",
+          "disableCloseOnEsc": false,
+          "id": "",
+          "isOpen": false,
+          "itemClassName": "",
+          "itemListClassName": "",
+          "menuClassName": "",
+          "morphShapeClassName": "",
+          "noOverlay": false,
+          "onStateChange": [Function],
+          "outerContainerId": "",
+          "overlayClassName": "",
+          "pageWrapId": "",
+          "styles": Object {},
+          "width": 300,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Home",
+              "className": "menu-nav-item",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Test",
+              "className": "menu-nav-item",
+              "to": "/test",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

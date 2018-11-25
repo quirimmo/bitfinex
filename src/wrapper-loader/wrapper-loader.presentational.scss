@@ -1,0 +1,17 @@
+.generic-abstract-loader-wrapper {
+	position: relative;
+}
+
+.generic-abstract-loader {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	opacity: 0.95;
+	z-index: 999999;
+}
+
+.generic-abstract-loader img {
+	height: 100%;
+	max-width: 100%;
+}

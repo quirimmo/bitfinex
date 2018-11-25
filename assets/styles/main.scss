@@ -1,0 +1,76 @@
+@import './colors';
+@import './mixins';
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: $mainBackgroundColor;
+  color: $baseFontColor;
+  overflow-x: hidden;
+}
+
+.main-app-container {
+  width: 100%;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.app-loader-wrapper .generic-abstract-loader-wrapper {
+  position: static;
+}
+
+.app-loader-wrapper .app-loader {
+  position: static;
+}
+
+.btn-primary {
+  color: $baseFontColor;
+  background-color: $primaryButtonColor;
+  border-color: $primaryButtonColor;
+  @include add-transition(all, 0.5s);
+}
+
+.btn-primary:hover {
+  border-radius: 0;
+  color: $primaryButtonColor;
+  background-color: $baseFontColor;
+  border-color: $baseFontColor;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: $primaryButtonColor;
+  border-color: $primaryButtonColor;
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper>div {
+  position: absolute;
+  width: 100%;
+}
+
+.bitfinex-widget {
+  background-color: $widgetsBackgroundColor;
+  border: 1px solid $widgetsBorderColor;
+  height: 370px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.bitfinex-widget-widget-item {
+  overflow: hidden;
+  border-bottom: 1px solid $widgetItemsBottomBorderColor;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 400;
+}
