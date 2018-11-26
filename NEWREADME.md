@@ -35,12 +35,12 @@ It sets up a project based on the following template created by me, available he
 ## Missing Features
 
 I was not able to add all the required features unfortunately. And even for the implemented ones, I would have stayed a bit more on them.
-The missing features are the following:
 
-1. Real Time Tickers Data: As said above, I was not able to get all the tickers data from the tickers channel, but I just found a way to get them by symbol.
-2. Precision: I started to change the REST interface of books for passing in the precision too, and I would have done the same for the socket, but I did not have time to add the management of it
-3. Bars: Honestly, I did not even have time to understand what are those bars in order book widget of the website.
-4. Management of buy/sell: From my understanding of the data, a negative amount means a sell, while a positive amount means a buy. At the moment I am showing the amount as it is, so negative or positive, but I would have liked to manage properly the sell/buy.
+The time ran out when I was implementing the real time data for books. The missing features are the following:
+
+1. Real Time Tickers Data
+2. Precision
+3. Bars
 
 ## REST / SOCKET
 
@@ -55,7 +55,7 @@ I used to use this library for connecting to sockets from the browser, as I usua
 The REST and the Socket are great, and I am sorry that I didn't have more time in order to study it properly.
 
 For example I could not understand how to get real time tickers from the socket. I was expecting a sort of `tickers` channel which gives me back the list of tickers
-for all the symbols, as the REST does, but the only way I found was to get tickers for a single pair. So I've been not able to refresh the tickers widget with real time data.
+for all the symbols, as the REST does, but the only way I found was to get tickers for a single pair. So I haven't been able to refresh the tickers widget with real time data.
 
 Looking to the implementation of the socket interfacing, it should be quite easy and fast to get real time data for tickers too, once understood how to interface with the channel.
 
@@ -74,24 +74,6 @@ Usually I do like to group and manage code as most as possible in reusable dumb/
 Even if I started to do that in some component, after a while I felt the pressure of the time, and I could not proceed doing that.
 
 For example, the socket interaction has been implemented in the presentational/dumb component of the sockets, which is really really really awful.
-
-## Styles
-
-There is a bit of styling implemented in the app and the widgets, with responsiveness given by `bootstrap` and a react implementation of bootstrap, the `reactstrap` library, but I could not goo too much deeper into styling as I would have liked to.
-
-## Performances / Optimization
-
-Your business is maybe one of the uses cases, in all the World, which requires more focus on optimization and performances for real time data.
-You really have a huge amount of real time data, because of the prices change, the new activites, etc...
-
-So I really would have loved to spend a bit more on optimization, specially on the UI side, but the time didn't allow me to do that.
-
-For the same reason I did use the array data from the socket/rest, instead of getting the objects, but it would have been great to create a kind of automated mapper
-for each entity of the model in order to create the objects on the frontend without manually mapping the fields inside the constructor, as it's been done now.
-
-What I mean is to create a kind of mapper of the properties on the frontend object, specifying the position where this field will be in the list you get back from the server. In this way, if in the future some change will happen on the server and the order of the retrieved fields will change, the code will still work.
-
-With the current implementation instead, a single change of the retrieved data from the api/socket, will break the creation of the entities on the frontend, and you need to manually change the code in the constructor/factory method of the models.
 
 ## Socket implementation
 
@@ -122,6 +104,17 @@ I like to use DAO pattern for defining the operations performable on models.
 
 About routers, I like to define a layer of what I call "router components", which are only responsible for taking data from route, and then display the presentational/container component of that page (a.k.a dumb/smart). Then the page component will display all the smart/dumb components which compose that page.
 In this way I can separate the logic of a page content from the logic of a page route.
+
+## Styles
+
+There is a bit of styling implemented in the app and the widgets, with responsiveness given by `bootstrap` and a react implementation of bootstrap, the `reactstrap` library, but I could not goo too much deeper into styling as I would have liked to.
+
+## Performances / Optimization
+
+Your business is maybe one of the uses cases, in all the World, which requires more focus on optimization and performances for real time data.
+You really have a huge amount of real time data, because of the prices change, the new activites, etc...
+
+So I really would have loved to spend a bit more on optimization, specially on the UI side, but the time didn't allow me to do that.
 
 ## Testing
 
